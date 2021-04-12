@@ -1,0 +1,47 @@
+var inputs = [];
+
+function showParagraph1()
+{
+    var inputs = [];
+
+    for (var j = 1; j <=6; j++)
+    {
+        var inputs = document.getElementById("showParagraph1"+j).value;
+console.log(inputs);
+showParagraph1.push(inputs);
+    }
+    console.log(showParagraph1);
+
+    for(var k=0; k <=6 k++)
+    {
+      inputs.push(document.getElementById("showParagraph1" + j).value);
+    }
+   
+    document.getElementById("showParagraph1").innerHTML = inputs.join(". ");
+
+    document.getElementById("submit_button").style.display = "none";
+    document.getElementById("sort_button").style.display = "inline-block";
+
+}
+function showParagraph2()
+{
+    var inputs = [];
+
+    for (var j = 1; j <=6; j++)
+    {
+        var inputs = document.getElementById("showParagraph2"+j).value;
+console.log(inputs);
+showParagraph2.push(inputs);
+    }
+    console.log(showParagraph2);
+
+    for(var k=0; k <=6 k++)
+    {
+      inputs.push(document.getElementById("showParagraph2" + j).value);
+    }
+   
+    document.getElementById("showParagraph2").innerHTML = inputs.join(". ");
+
+    document.getElementById("submit_button").style.display = "none";
+    document.getElementById("sort_button").style.display = "inline-block";
+}
